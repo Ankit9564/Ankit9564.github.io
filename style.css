@@ -235,6 +235,25 @@ html {
     font-family: "Courier New", monospace;
     font-weight: bold;
 }
+/*Order Buttons*/
+.btn-orders {
+    font-family: Raleway-SemiBold;
+    font-size: 15px;
+    color: rgb(39, 235, 235);
+    letter-spacing: 2px;
+    line-height: 20px;
+    border-radius: 4px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    border: 1px solid rgb(39, 235, 235);
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.btn-orders:hover {
+    color: #FFF;
+    background: rgb(39, 235, 235);
+}
 
 /* Boostrap Buttons Styling */
 
@@ -278,6 +297,7 @@ html {
     background: transparent;
     transition: all 0.3s ease 0s;
 }
+
 .text-muted a{
     color: #6c757d;
     text-decoration: underline;

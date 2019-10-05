@@ -86,11 +86,12 @@ html {
 }
 
 .sidenav a:first-child {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .sidenav a:hover {
-    color: #000000;
+    color: rgb(39, 235, 235);
+    border-right: 2px solid rgb(39, 235, 235);
 }
 
 .main {
